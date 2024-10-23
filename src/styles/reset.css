@@ -1,0 +1,38 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input,
+button {
+  appearance: none;
+  border: none;
+  font: inherit;
+  outline: none;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+ul {
+  list-style-type: none;
+}

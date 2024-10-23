@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  background-color: #4753ff;
+
+  .wrapper {
+    max-inline-size: 1200px;
+    margin: auto;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .title {
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: #fff;
+    }
+
+    .menu {
+      display: flex;
+      gap: 64px;
+      color: white;
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+      }
+    }
+
+    .item {
+      font-size: 1.125rem;
+      font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+@import url("reset.css");
+
+html {
+  font-family: Manrope, sans-serif;
+  font-size: 16px;
+}
+
+main {
+  max-inline-size: 1280px;
+  margin: auto;
+  padding: 32px;
+}
